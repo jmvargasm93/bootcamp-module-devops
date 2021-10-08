@@ -11,4 +11,5 @@ phases:
       - pip install -r requirements.txt --use-feature=2020-resolver
   build:
     commands:
-      - pytest
+      - cd bootcamp-module-devops/backend/
+      - pytest 
