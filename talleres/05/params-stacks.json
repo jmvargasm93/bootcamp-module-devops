@@ -1,6 +1,6 @@
 [{
         "ParameterKey": "VpcId",
-        "ParameterValue": ""
+        "ParameterValue": "vpc-0f7454237d45f27a4"
     },
     {
         "ParameterKey": "InstanceType",
