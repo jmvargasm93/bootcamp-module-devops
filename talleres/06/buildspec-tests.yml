@@ -7,9 +7,8 @@ phases:
     # Definir el runtime adecuado
   pre_build:
     commands:
-      - cd talleres/06/
+      - cd backend
       - pip install -r requirements.txt --use-feature=2020-resolver
   build:
     commands:
-      - cd bootcamp-module-devops/backend/
       - pytest 
